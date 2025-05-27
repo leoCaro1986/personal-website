@@ -88,6 +88,7 @@ personal-website/
 
 ## Responsive Design
 
+
 El sitio está optimizado para diferentes dispositivos:
 - Móvil: < 768px
 - Tablet: 768px - 1024px
