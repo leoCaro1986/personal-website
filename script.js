@@ -7,6 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
     });
 
+    // Botón de modo oscuro
+    const darkToggle = document.querySelector('.dark-toggle');
+    if (darkToggle) {
+        darkToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    }
+
     // Navegación suave
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
