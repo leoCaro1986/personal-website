@@ -1,3 +1,5 @@
+
+<!-- Trigger workflow: actualización menor para validar el nuevo lint-action de CSS (2) -->
 # Portafolio Personal - Leonardo Caro
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0f3d0f0f-0f3d-0f3d-0f3d-0f3d0f3d0f3d/deploy-status)](https://app.netlify.com/sites/personal-website-leonardocaro/deploys)
@@ -85,6 +87,7 @@ personal-website/
 - **Características**: Calendario interactivo, recordatorios, gestión de usuarios
 
 ## Responsive Design
+
 
 El sitio está optimizado para diferentes dispositivos:
 - Móvil: < 768px

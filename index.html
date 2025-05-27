@@ -9,30 +9,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <div class="logo">LC</div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+    <nav class="navbar glass">
+        <div class="logo">LeoCaro.dev</div>
+        <ul class="nav-links">
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="dark-toggle" aria-label="Alternar modo oscuro">🌓</button>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
         </div>
     </nav>
 
     <section id="inicio" class="hero">
+        <div class="hero-bg-animated"></div>
         <div class="hero-content">
-            <h1>Leonardo Caro</h1>
-            <p class="subtitle">Consultor de Desarrollo y Diseñador Gráfico</p>
-            <div class="social-links">
-                <a href="https://github.com/leoCaro1986" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:leocv0205@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <h1 class="hero-title">Leonardo Caro</h1>
+            <h2 class="hero-role">Full Stack Developer & Tech Leader</h2>
+            <p class="hero-value">Construyo soluciones digitales robustas y creativas para empresas innovadoras.</p>
+            <div class="hero-buttons">
+                <a href="https://github.com/leoCaro1986" target="_blank" class="btn btn-github" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank" class="btn btn-linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="assets/cv.pdf" class="btn btn-cv" target="_blank" title="Descargar CV"><i class="fas fa-file-pdf"></i> Descargar CV</a>
             </div>
         </div>
     </section>
@@ -43,10 +42,11 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>Soy un apasionado por los sistemas y la tecnología, actualmente me desempeño como Consultor de Desarrollo en Sofka. Como técnico en desarrollo de software del CESDE y técnico en ventas y mercadeo, combino mis habilidades técnicas con una sólida experiencia en la industria gráfica y de empaques alimenticios.</p>
-                    
                     <p>Me destaco por mi compromiso con el aprendizaje continuo, fuerte capacidad analítica, liderazgo y excelentes habilidades para el trabajo en equipo. Mi enfoque en el servicio al cliente y la resolución de conflictos me permite entregar soluciones efectivas y mantener excelentes relaciones interpersonales.</p>
                 </div>
                 <div class="cv-download">
+                    <a href="assets/cv.pdf" class="download-btn" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Descargar CV
                     <a href="assets/cv.pdf" class="download-btn" target="_blank">
                         <i class="fas fa-file-pdf"></i> Descargar CV
                     </a>
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section id="habilidades" class="skills">
+    <section id="skills" class="skills">
         <div class="container">
             <h2>Habilidades Técnicas</h2>
             <div class="skills-grid">
@@ -71,23 +71,26 @@
                             <span>CSS</span>
                         </div>
                         <div class="skill-item">
-                            <i class="fab fa-js"></i>
+                            <i class="fab fa-js-square"></i>
                             <span>JavaScript</span>
                         </div>
                         <div class="skill-item">
                             <i class="fab fa-react"></i>
-                            <span>ReactJS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-react"></i>
-                            <span>NextJS</span>
+                            <span>React</span>
                         </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
-                    <h3>Desarrollo Backend</h3>
+                    <h3>Backend</h3>
                     <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Express</span>
+                        </div>
                         <div class="skill-item">
                             <i class="fab fa-java"></i>
                             <span>Java</span>
@@ -96,49 +99,43 @@
                             <i class="fas fa-leaf"></i>
                             <span>Spring Boot</span>
                         </div>
-                        <div class="skill-item">
-                            <i class="fas fa-bolt"></i>
-                            <span>Quarkus</span>
-                        </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
                     <h3>Bases de Datos</h3>
                     <div class="skill-items">
                         <div class="skill-item">
                             <i class="fas fa-database"></i>
-                            <span>MongoDB</span>
+                            <span>MySQL</span>
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-database"></i>
-                            <span>SQL</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
                         </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
-                    <h3>Herramientas y Metodologías</h3>
+                    <h3>Herramientas</h3>
                     <div class="skill-items">
                         <div class="skill-item">
                             <i class="fab fa-git-alt"></i>
                             <span>Git</span>
                         </div>
                         <div class="skill-item">
-                            <i class="fab fa-microsoft"></i>
-                            <span>Azure DevOps</span>
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-chart-bar"></i>
-                            <span>Power BI</span>
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-tasks"></i>
-                            <span>Scrum</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-adobe"></i>
-                            <span>Illustrator</span>
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
                         </div>
                     </div>
                 </div>
@@ -148,96 +145,9 @@
 
     <section id="proyectos" class="projects">
         <div class="container">
-            <h2>Mis Proyectos</h2>
+            <h2>Alguno de mis proyectos</h2>
             <div class="projects-grid">
-                <div class="project-card featured">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>Gestión de Citas Médicas</h3>
-                            <span class="live-badge">En Vivo</span>
-                        </div>
-                        <p>Sistema completo de gestión de citas médicas con autenticación de usuarios, registro de pacientes y médicos, y programación de citas en tiempo real.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/leoCaro1986/citas-medicas-front" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Frontend
-                            </a>
-                            <a href="https://github.com/leoCaro1986/citas-medicas-back" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Backend
-                            </a>
-                            <a href="https://dazzling-lollipop-327fb0.netlify.app/" target="_blank" class="project-link live-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card featured">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>Agenda de Citas</h3>
-                            <span class="live-badge">En Vivo</span>
-                        </div>
-                        <p>Aplicación web para la gestión de citas y eventos. Incluye calendario interactivo, recordatorios y gestión de usuarios.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Express</span>
-                            <span>MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/leoCaro1986/Agenda-citas-front" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Frontend
-                            </a>
-                            <a href="https://github.com/leoCaro1986/Agenda-citas-back" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Backend
-                            </a>
-                            <a href="https://agenda-citas-front.vercel.app/" target="_blank" class="project-link live-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Sistema de Inventarios</h3>
-                        <p>API de gestión de inventarios desarrollada con tecnologías modernas. Permite el control y seguimiento de productos en tiempo real.</p>
-                        <div class="project-tech">
-                            <span>Java</span>
-                            <span>Spring Boot</span>
-                            <span>API REST</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/leoCaro1986/inventarios-api" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Ver Código
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>CRUD Full Stack</h3>
-                        <p>Aplicación web completa con operaciones CRUD, implementada con React en el frontend y Java Spring Boot en el backend.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Java</span>
-                            <span>Spring Boot</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/leoCaro1986/KataCrud_Front" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Frontend
-                            </a>
-                            <a href="https://github.com/leoCaro1986/KataCrud" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Backend
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <!-- Aquí irán las tarjetas de tus proyectos -->
             </div>
         </div>
     </section>
@@ -270,9 +180,14 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Leonardo Caro. Todos los derechos reservados.</p>
+    <footer class="footer-glass">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="mailto:leocv0205@gmail.com" target="_blank" title="Correo"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/leoCaro1986" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2024 Leonardo Caro. Todos los derechos reservados.</p>
         </div>
     </footer>
 
