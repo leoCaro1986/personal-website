@@ -21,6 +21,15 @@ jobs:
       with:
         config-file: ".markdown-link-check.json"
       
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install stylelint@16.23.1 --save-dev
+
     - name: Check CSS
       uses: wearerequired/lint-action@v2
       with:
