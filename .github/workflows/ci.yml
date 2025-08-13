@@ -25,4 +25,4 @@ jobs:
       uses: wearerequired/lint-action@v2
       with:
         stylelint: true
-        stylelint_input: "**/*.css"
+        stylelint_extensions: "css"
