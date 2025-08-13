@@ -31,7 +31,4 @@ jobs:
       run: npm ci
 
     - name: Check CSS
-      uses: wearerequired/lint-action@v2
-      with:
-        stylelint: true
-        stylelint_extensions: "css"
+      run: npx stylelint "**/*.css" --fix
