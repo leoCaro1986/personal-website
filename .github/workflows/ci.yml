@@ -18,6 +18,8 @@ jobs:
         
     - name: Check links
       uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        config-file: ".markdown-link-check.json"
       
     - name: Check CSS
       uses: wearerequired/lint-action@v2
