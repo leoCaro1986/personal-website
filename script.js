@@ -10,8 +10,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // Botón de modo oscuro
     const darkToggle = document.querySelector('.dark-toggle');
     if (darkToggle) {
+        // Verificar si hay una preferencia guardada
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            document.body.classList.add('dark-mode');
+            darkToggle.textContent = '☀️'; // Cambiar a sol si está en modo oscuro
+        }
+
+        // Manejar el clic en el botón
         darkToggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
+            
+            // Guardar la preferencia del usuario
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+                darkToggle.textContent = '☀️';
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                darkToggle.textContent = '🌙';
+            }
         });
     }
 

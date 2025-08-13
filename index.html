@@ -10,15 +10,25 @@
 </head>
 <body>
     <nav class="navbar glass">
-        <div class="logo">LeoCaro.dev</div>
-        <ul class="nav-links">
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-        <button class="dark-toggle" aria-label="Alternar modo oscuro">🌓</button>
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">LeoCaro.dev</div>
+            </div>
+            
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <button class="dark-toggle" aria-label="Alternar modo oscuro">🌓</button>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -45,8 +55,6 @@
                     <p>Me destaco por mi compromiso con el aprendizaje continuo, fuerte capacidad analítica, liderazgo y excelentes habilidades para el trabajo en equipo. Mi enfoque en el servicio al cliente y la resolución de conflictos me permite entregar soluciones efectivas y mantener excelentes relaciones interpersonales.</p>
                 </div>
                 <div class="cv-download">
-                    <a href="assets/cv.pdf" class="download-btn" target="_blank">
-                        <i class="fas fa-file-pdf"></i> Descargar CV
                     <a href="assets/cv.pdf" class="download-btn" target="_blank">
                         <i class="fas fa-file-pdf"></i> Descargar CV
                     </a>
@@ -145,9 +153,125 @@
 
     <section id="proyectos" class="projects">
         <div class="container">
-            <h2>Alguno de mis proyectos</h2>
+            <h2>Mis Proyectos</h2>
             <div class="projects-grid">
-                <!-- Aquí irán las tarjetas de tus proyectos -->
+                <!-- Proyecto 1 - Administrador Citas Veterinarias -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Administrador de Citas Veterinarias</h3>
+                        <span class="project-date">2023</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Aplicación web para la gestión de citas en clínicas veterinarias, con registro de pacientes y seguimiento de historias clínicas.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dazzling-lollipop-327fb0.netlify.app" target="_blank" class="btn">Ver Demo</a>
+                            <a href="https://github.com/leoCaro1986/citas-veterinarias-2" target="_blank" class="btn btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 - Biblioteca Reactiva -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Biblioteca Reactiva</h3>
+                        <span class="project-date">2021</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Sistema de gestión de biblioteca desarrollado con programación reactiva en Java, permitiendo el préstamo y devolución de libros.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring WebFlux</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/leoCaro1986/bibliotecaReactiva" target="_blank" class="btn">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 - Biblioteca Spring Boot -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Biblioteca Spring Boot</h3>
+                        <span class="project-date">2021</span>
+                    </div>
+                    <div class="project-content">
+                        <p>API REST para gestión de biblioteca desarrollada con Spring Boot, incluyendo autenticación y autorización.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>JPA</span>
+                            <span>H2</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/leoCaro1986/bibliotecaSpringBoot" target="_blank" class="btn">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 - App Notas Firebase -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>App de Notas con Firebase</h3>
+                        <span class="project-date">2020</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Aplicación web para tomar notas con autenticación de usuarios y almacenamiento en la nube utilizando Firebase.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/leoCaro1986/AppNotasFirebase20202" target="_blank" class="btn">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Recetario Saludable</h3>
+                        <span class="project-date">2023</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Plataforma para compartir recetas saludables con búsqueda por ingredientes y valoración de usuarios.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn">Ver Demo</a>
+                            <a href="#" target="_blank" class="btn btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Finanzas Personales</h3>
+                        <span class="project-date">2022</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Aplicación web para el seguimiento de gastos e ingresos con gráficos y exportación de reportes.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>TypeScript</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn">Ver Demo</a>
+                            <a href="#" target="_blank" class="btn btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -180,14 +304,47 @@
         </div>
     </section>
 
-    <footer class="footer-glass">
-        <div class="footer-content">
-            <div class="footer-social">
-                <a href="mailto:leocv0205@gmail.com" target="_blank" title="Correo"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/leoCaro1986" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:leocv0205@gmail.com">leocv0205@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank">Leonardo Caro Vanegas</a></li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/leoCaro1986" target="_blank">leoCaro1986</a></li>
+                </ul>
             </div>
-            <p class="footer-copy">&copy; 2024 Leonardo Caro. Todos los derechos reservados.</p>
+            
+            <div class="footer-section">
+                <h3>Navegación</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/leoCaro1986" target="_blank" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:leocv0205@gmail.com" class="social-icon" title="Correo">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Leonardo Caro Vanegas. Todos los derechos reservados.</p>
+            <p>Desarrollado con ❤️ usando HTML, CSS y JavaScript</p>
         </div>
     </footer>
 
