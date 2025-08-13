@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoCaro1986/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "script.js",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/leoCaro1986/personal-website/issues"
+  },
+  "homepage": "https://github.com/leoCaro1986/personal-website#readme"
+}

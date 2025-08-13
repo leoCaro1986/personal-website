@@ -2,7 +2,7 @@
 <!-- Trigger workflow: actualización menor para validar el nuevo lint-action de CSS (2) -->
 # Portafolio Personal - Leonardo Caro
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0f3d0f0f-0f3d-0f3d-0f3d-0f3d0f3d0f3d/deploy-status)](https://app.netlify.com/sites/personal-website-leonardocaro/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee564157-4a0e-4f07-83c6-806ac5b1c3bf/deploy-status)](https://app.netlify.com/projects/personal-website-leonardocaro/deploys)
 
 ## 🌐 Demo
 
@@ -81,10 +81,7 @@ personal-website/
 - **Tecnologías**: React, Node.js, MongoDB
 - **Características**: Autenticación, gestión de usuarios, programación en tiempo real
 
-### Agenda de Citas
-- **Demo**: [Ver Demo](https://agenda-citas-front.vercel.app/)
-- **Tecnologías**: React, Express, MongoDB
-- **Características**: Calendario interactivo, recordatorios, gestión de usuarios
+
 
 ## Responsive Design
 
@@ -104,10 +101,8 @@ El sitio está optimizado para diferentes dispositivos:
 
 ## Contacto
 
-- LinkedIn: [Leonardo Caro](https://www.linkedin.com/in/leonardo-caro-a96558186/)
+- LinkedIn: [Leonardo Caro](https://www.linkedin.com/in/leonardo-caro-vanegas-981782a5/)
 - GitHub: [@leoCaro1986](https://github.com/leoCaro1986)
 - Email: [leocaro1986@gmail.com](mailto:leocaro1986@gmail.com)
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
