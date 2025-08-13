@@ -20,7 +20,6 @@ jobs:
       uses: gaurav-nelson/github-action-markdown-link-check@v1
       
     - name: Check CSS
-      uses: wearerequired/lint-action@v2
+      uses: StyleShit/stylelint-action@v1
       with:
-        stylelint: true
-        stylelint_input: "**/*.css"
+        files: "**/*.css"
