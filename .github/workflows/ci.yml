@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm install stylelint@16.23.1 --save-dev
+      run: npm ci
 
     - name: Check CSS
       uses: wearerequired/lint-action@v2
